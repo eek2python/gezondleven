@@ -9,8 +9,12 @@ def home():
 
 
 @app.route("/snijplanken")
-def cutting_boards():
+def snijplanken():
     return render_template('snijplanken.html')
+
+@app.route("/pannen")
+def pannen():
+    return render_template('pannen.html')
 
 
 if __name__ == "__main__":
