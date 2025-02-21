@@ -16,6 +16,9 @@ def snijplanken():
 def pannen():
     return render_template('pannen.html')
 
+@app.route("/elements")
+def elements():
+    return render_template('elements.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
