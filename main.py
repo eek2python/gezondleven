@@ -16,6 +16,10 @@ def snijplanken():
 def pannen():
     return render_template('pannen.html')
 
+@app.route("/vershoudcontainers")
+def vershoudcontainers():
+    return render_template('vershoudcontainers.html')
+
 @app.route("/elements")
 def elements():
     return render_template('elements.html')
