@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>EcoLeven | Pannen</title>
+		<title>EcoLeven | Koekenpannen</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="static/assets/css/main.css" />
@@ -52,9 +52,9 @@
 								<div class="col-8 col-12-small">
 									<h3>1. BK Easy Induction Ceramic Koekenpan</h3>
 										<ul>
-											<li><b>Materiaal en coating:</b> Gemaakt an aluminium met een keramische antiaanbaklaag, vrij van PFAS, PFOA en andere schadelijke chemicaliën.</li>
+											<li><b>Materiaal en coating:</b> Gemaakt van aluminium met een keramische antiaanbaklaag, vrij van PFAS, PFOA en andere schadelijke chemicaliën.</li>
 											<li><b>Warmteverdeling:</b> Uitstekende warmtegeleiding en gelijkmatige verdeling door de aluminium constructie.</li>
-											<li><b>Compatibiliteit:</b> Geschikt voor alle warmtebronnen, inclusief inductie, en overnbestendig tot 160˚C.</li>
+											<li><b>Compatibiliteit:</b> Geschikt voor alle warmtebronnen, inclusief inductie, en ovenbestendig tot 160˚C.</li>
 											<li><b>Gebruiksgemak:</b> Lichtgewicht, ergonomisch ontwerp met een hittebestendige greep en eenvoudig te reinigen dankzij de krasbestendige keramische laag.</li>
 											<a href="https://www.bol.com/nl/nl/p/bk-easy-induction-ceramic-koekenpan-o28-cm-pfas-vrij/9300000032109237/" target="_blank" rel="noopener noreferrer">BK Easy Induction Ceramic Koekenpan</a>
 										</ul>
@@ -158,30 +158,14 @@
 									<ul>
 										<li><a href="/">Homepage</a></li>
 										<li><a href="/snijplanken">Snijplanken</a></li>
-										<li><a href="pannen">Pannen</a></li>
-										<li><a href="vershoudcontainers">Vershoudcontainers</a></li>
-										<li><a href="elements">Elements</a></li>
-										<li>
-											<span class="opener">Pannen</span>
+										<li><span class="opener">Pannen</span>
 											<ul>
-												<li><a href="pannen">Koekenpannen</a></li>
-												<li><a href="#">Hapjespannen</a></li>
-												<li><a href="#">Wokpannen</a></li>
+												<li><a href="koekenpannen">Koekenpannen</a></li>
+												<li><a href="hapjespannen">Hapjespannen</a></li>
+												<li><a href="wokpannen">Wokpannen</a></li>
 											</ul>
 										</li>
-										<li><a href="#">Adipiscing</a></li>
-										<li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Maximus Erat</a></li>
-										<li><a href="#">Sapien Mauris</a></li>
-										<li><a href="#">Amet Lacinia</a></li>
+										<li><a href="vershoudcontainers">Vershoudbakjess</a></li>
 									</ul>
 								</nav>
 
@@ -212,11 +196,11 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Get in touch</h2>
+										<h2>Contact</h2>
 									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+									<p>Heb je vragen, opmerking of tips? Stuur ons een mailtje naar onderstaand adres.</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">info@ecoleven.nl</a></li>
+										<li class="icon solid fa-envelope"><a href="#">info@gezondleven.nl</a></li>
 <!--										<li class="icon solid fa-phone">(000) 000-0000</li>-->
 <!--										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />-->
 <!--										Nashville, TN 00000-0000</li>-->
@@ -225,8 +209,17 @@
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; EcoLeven. All rights reserved.</p>
+									<p class="copyright">&copy; <span id="year"></span> Gezondleven</p>
+									<p>
 								</footer>
+								<script>
+        						document.getElementById("year").textContent = new Date().getFullYear();
+    							</script>
+							<!DOCTYPE html>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 
 						</div>
 					</div>

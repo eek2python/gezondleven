@@ -12,9 +12,17 @@ def home():
 def snijplanken():
     return render_template('snijplanken.html')
 
-@app.route("/pannen")
-def pannen():
-    return render_template('pannen.html')
+@app.route("/koekenpannen")
+def koekenpannen():
+    return render_template('koekenpannen.html')
+
+@app.route("/hapjespannen")
+def hapjespannen():
+    return render_template('hapjespannen.html')
+
+@app.route("/wokpannen")
+def wokpannen():
+    return render_template('wokpannen.html')
 
 @app.route("/vershoudcontainers")
 def vershoudcontainers():
