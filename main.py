@@ -28,6 +28,10 @@ def wokpannen():
 def vershoudcontainers():
     return render_template('vershoudcontainers.html')
 
+@app.route("/airfryers")
+def airfryers():
+    return render_template('airfryers.html')
+
 @app.route("/elements")
 def elements():
     return render_template('elements.html')
