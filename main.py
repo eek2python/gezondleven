@@ -32,6 +32,10 @@ def vershoudcontainers():
 def airfryers():
     return render_template('airfryers.html')
 
+@app.route("/blog01")
+def blog01():
+    return render_template('blog01.html')
+
 @app.route("/elements")
 def elements():
     return render_template('elements.html')
